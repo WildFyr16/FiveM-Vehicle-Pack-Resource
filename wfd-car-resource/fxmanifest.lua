@@ -16,5 +16,8 @@ data_file 'CARCOLS_FILE' 'stream/**/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'stream/**/carvariations.meta'
 -- data_file 'DLCTEXT_FILE' 'stream/**/dlctext.meta'
 -- data_file 'CARCONTENTUNLOCKS_FILE' 'stream/**/carcontentunlocks.meta'
+data_file 'WEAPONINFO_FILE' 'stream/**/vehicleweapons_*.meta'
+data_file 'WEAPON_METADATA_FILE' 'stream/**/weaponarchetypes.meta'
+data_file 'EXPLOSION_INFO_FILE' 'stream/**/explosion.meta'
 
 client_script 'vehicle_names.lua'
